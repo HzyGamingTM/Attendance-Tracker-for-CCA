@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+
+    --dark-bg: #141a24;
+    --dark-bg-2: #283a48;
+    --dark-bg-3: rgb(60, 79, 108);
+    --dark-fg: #dddddd;
+    --dark-acc: #748adb;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: var(--dark-bg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+
+.login-redirect-text {
+    color: white;
+    font-size: 2em;
+}
+
+.login-redirect-button:hover {
+    background-color: var(--dark-bg-3);
+}
+
+.login-redirect-button {
+    border-radius: 8px;
+    margin: auto auto;
+    width: 50vmin;
+    height: 15vmin;
+
+    border: 2px solid black;
+
+    min-width: 180px;
+    min-height: 6em;
+
+    background-color: var(--dark-bg-2);
+    /* animation */
+    transition: background-color 0.1s;
+}
